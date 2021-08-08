@@ -14,6 +14,6 @@ jobs:
     - name: Create PR to branch
       uses: thaim/labeled-pr-picker-action@main
       with:
-        label-to-branch: |
+        label-map: |
           hotfix:production
           bugfix:production
