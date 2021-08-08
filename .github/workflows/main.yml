@@ -13,3 +13,7 @@ jobs:
       uses: actions/checkout@v1
     - name: Create PR to branch
       uses: thaim/labeled-pr-picker-action@main
+      with:
+        label-to-branch: |
+          hotfix:production
+          bugfix:production
