@@ -12,4 +12,4 @@ jobs:
     - name: checkout
       uses: actions/checkout@v1
     - name: Create PR to branch
-      uses: thaim/labeled-pr-picker-action@master
+      uses: thaim/labeled-pr-picker-action@main
